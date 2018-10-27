@@ -1,0 +1,30 @@
+{
+  "name": "define",
+  "version": "1.0.0",
+  "description": "Object defineProperty wrapper",
+  "main": "Define.js",
+  "author": {
+    "name": "Michael Miretski",
+    "email": "4apaev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4apaev/define.git"
+  },
+  "scripts": {
+    "test": "nyc mocha ./*.spec.js"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 90,
+    "statements": 90,
+    "functions": 90,
+    "branches": 90,
+    "exclude": [ "**/*.spec.js" ]
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "nyc": "latest"
+  }
+}

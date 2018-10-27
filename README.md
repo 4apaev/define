@@ -1,0 +1,3 @@
+Define
+=======
+Object.defineProperty wrapper
